@@ -55,6 +55,15 @@ nav {
   width: 50%;
 }
 
+/* Footer */
+footer {
+  background-color: rgba(0, 0, 0, 255);
+  color: rgba(255, 255, 255, 255);
+  text-align: center;
+  padding: 5vh;
+  padding-bottom: 20vh;
+}
+
 /* Home Page Styles */
 body {
   background-image: url('../images/assets/homepageWallpaper.png');
