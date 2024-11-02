@@ -65,7 +65,7 @@ footer {
 }
 
 /* Home Page Styles */
-body {
+.home {
   background-image: url('../images/assets/homepageWallpaper.png');
   background-position: top;
   background-repeat: no-repeat;
@@ -195,8 +195,21 @@ body {
 }
 
 /* Guest Page Styles */
-.guestsPage {
-  background-color: rgba(0, 0, 0, 255);  
+.guests h2 {
+  text-align: center;
+}
+
+.guests .column {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.guests .row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Ticket Prices Page Styles */
