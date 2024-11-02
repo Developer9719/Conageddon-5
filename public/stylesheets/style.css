@@ -195,6 +195,9 @@ body {
 }
 
 /* Guest Page Styles */
+.guestsPage {
+  background-color: rgba(0, 0, 0, 255);  
+}
 
 /* Ticket Prices Page Styles */
 
