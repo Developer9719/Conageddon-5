@@ -213,6 +213,9 @@ footer {
 }
 
 /* Ticket Prices Page Styles */
+.ticketPrices .top h2 {
+  text-align: center;
+}
 
 /* Show Info Page Styles */
 
