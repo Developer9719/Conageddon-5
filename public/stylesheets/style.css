@@ -1,8 +1,72 @@
+/* Global Styles */
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  background-color: rgb(255,0,0);
+  padding: 2vh;
+  margin: 0;
+  text-align: center;
 }
 
-a {
-  color: #00B7FF;
+/* Header Styles */
+header {
+  background-color: rgba(0,0,0,255);
 }
+
+h1 {
+  margin: 0;
+  padding: 2vh;
+}
+
+h1 a {
+  text-decoration-line: none;
+  color: rgba(255,255,255,255 );
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Nav Styles */
+li {
+  list-style-type: none;
+  margin-left: 2vw;
+  padding-bottom: 2vh;
+}
+
+li a {
+  text-decoration: none;
+  color: rgba(255,255,255,255 );
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Home Page Styles */
+body {
+  background-image: url('../images/assets/homepageWallpaper.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* Guest Page Styles */
+
+/* Ticket Prices Page Styles */
+
+/* Show Info Page Styles */
+
+/* Purchase Tickets Page Styles */
