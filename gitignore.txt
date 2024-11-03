@@ -5,3 +5,5 @@ bin/
 # JSON Files
 package-lock.json
 package.json
+
+.ssh/Ontario-Justin-HomeComp.pem
