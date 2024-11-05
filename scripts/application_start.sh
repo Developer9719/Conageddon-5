@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #give permission for everything 
-sudo chmod -R 777 /home/ec2-user
+sudo chmod -R 777 ~/
 
 #navigate into our working directory where we have all our github files
-cd /home/ec2-user
+cd ~/
 
 #add npm and node to path
 export NVM_DIR="$HOME/.nvm"	
