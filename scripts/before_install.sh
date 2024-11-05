@@ -5,6 +5,8 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 . ~/.nvm/nvm.sh
 nvm install node
 
+# Need to run these to prep the remote to run the app
+# Came from this Youtube video: https://www.youtube.com/watch?v=Buh3GjHPmjo&t=689s 
 sudo yum -y update
 sudo yum -y install ruby
 sudo yum -y install wget
