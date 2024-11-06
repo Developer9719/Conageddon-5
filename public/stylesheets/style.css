@@ -223,10 +223,53 @@ footer {
 }
 
 /* Ticket Prices Page Styles */
+.ticketPrices .top, .generalTickets, .vipTickets, .vipInformation {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
 .ticketPrices .top h2 {
   text-align: center;
 }
 
+.ticketPrices .column {
+  float: left;
+  width: 50%;
+}
+
+.ticketPrices .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ticketPrices .vipLabel {
+  text-align: center;
+}
+
 /* Show Info Page Styles */
+.showInfo .column {
+  float: left;
+  width: 50%;
+}
+
+.showInfo .row {
+  margin-left: 10vw;
+}
+
+.showInfo .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* Purchase Tickets Page Styles */
+.purchase .content {
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.purchase h2 {
+  text-align: center;
+}
