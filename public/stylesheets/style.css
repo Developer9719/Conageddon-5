@@ -248,5 +248,19 @@ footer {
 }
 
 /* Show Info Page Styles */
+.showInfo .column {
+  float: left;
+  width: 50%;
+}
+
+.showInfo .row {
+  margin-left: 10vw;
+}
+
+.showInfo .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* Purchase Tickets Page Styles */
