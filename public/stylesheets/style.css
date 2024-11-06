@@ -223,7 +223,27 @@ footer {
 }
 
 /* Ticket Prices Page Styles */
+.ticketPrices .top, .generalTickets, .vipTickets, .vipInformation {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
 .ticketPrices .top h2 {
+  text-align: center;
+}
+
+.ticketPrices .column {
+  float: left;
+  width: 50%;
+}
+
+.ticketPrices .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ticketPrices .vipLabel {
   text-align: center;
 }
 
