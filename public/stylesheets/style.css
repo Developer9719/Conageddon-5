@@ -199,6 +199,10 @@ footer {
   text-align: center;
 }
 
+.guests .row {
+  margin-bottom: 5vh;
+}
+
 .guests .column {
   float: left;
   width: 33.33%;
