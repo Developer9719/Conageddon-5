@@ -205,6 +205,12 @@ footer {
   text-align: center;
 }
 
+.guests .twoColumns {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
 /* Clear floats after the columns */
 .guests .row:after {
   content: "";
